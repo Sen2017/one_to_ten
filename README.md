@@ -17,7 +17,7 @@ Create ALL THE THINGS!
   // If their age is greater than 40 out put "has lived through many epic battles"
 
 // Create the following sentece using your newly created variables: 
-  // "[Jake] is our lovable hero, who [has seen a few battles] with his trusty [sword]."
+  // "[Jake] is our lovable hero, who [has seen a few battles] with [his] trusty [sword]."
 
 1 Fish 2 Fish
 // create a variable named count with no value
