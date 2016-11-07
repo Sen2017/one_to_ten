@@ -62,13 +62,13 @@
 	var hero = 'Black Widow';
 
 	function avengersAssemble(a){
-		if (a == 'Ironman'){
+		if (hero == 'Ironman'){
 			console.log('Tony Stark: How does Fury see these? *covers one eye*');
 		}
-		else if (a == 'Captain America'){
+		else if (hero == 'Captain America'){
 			console.log('Steve Rogers: Seriously?');
 		}
-		else if (a == 'Black Widow')
+		else if (hero == 'Black Widow')
 			console.log('Agent Romanov: Hello? What? I am in the middle of an interrogation and this guy is giving me everything...');
 	}else{
 		console.log('Director Fury: Sorreh, you ah NOT needed fo THIS mission.');
