@@ -46,16 +46,16 @@
 	var animal = 'husky';
 
 	function animalHouse(a,b){
-		count = (a + b)
-		console.log(count)
+		count = (a + b);
+		console.log(count);
 	}
 
 	animalHouse();
 
 	if (count > 2){
-		console.log('We have too many ' + animal +'s')
+		console.log('We have too many ' + animal +'s');
 	}else{
-		console.log('Welcome to the club')
+		console.log('Welcome to the club');
 	}
 
 
@@ -70,11 +70,35 @@
 			console.log('Steve Rogers: Seriously?');
 		}
 		if (a == 'Black Widow')
-			console.log('Agent Romanov: Hello? What? I am in the middle of an interrogation and this guy is giving me everything...')
+			console.log('Agent Romanov: Hello? What? I am in the middle of an interrogation and this guy is giving me everything...');
 	}else{
-		console.log('Director Fury: Sorreh, you ah NOT needed fo THIS mission.')
+		console.log('Director Fury: Sorreh, you ah NOT needed fo THIS mission.');
 	}
 
 	avengersAssemble(hero);
 
 //lights out
+	var lights = true;
+
+	if (lights = true){
+		console.log('And then there was light');
+	}else{
+		console.log('Lights out');
+	}
+
+//Vroom vroom
+	var carType = 'Tesla';
+	var color = 'red';
+	var num = 7;
+
+	if (carType = 'Toyota' && color = 'blue'){
+		console.log('We have a blue Toyota');
+	}
+	if (carType = 'Lamborghini' && color = 'red'){
+		console.log('We have a red Lamborghini');
+	}
+	if (carType = 'Tesla' && color = 'black'){
+		console.log('We have a black Tesla');
+	}else{
+		console.log("We don't have any blue Toyotas in stock");
+	}
