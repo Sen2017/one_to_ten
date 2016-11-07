@@ -12,7 +12,7 @@
 			pronoun = 'his';
 		}
 
-		if (gender == 'Female'){
+		else if (gender == 'Female'){
 			pronoun = 'her';
 		}else{
 			pronoun = 'they';
@@ -25,12 +25,12 @@
 			rank = 'Cadet';
 		}
 
-		if (age > 21 && age < 40){
+		else if (age > 21 && age < 40){
 			xp = 'begins his five year mission';
 			rank = 'Captain';
 		}
 
-		if (age > 40){
+		else if (age > 40){
 			xp = 'has boldy gone where no one has gone before'
 			rank = 'Admiral';
 		}
@@ -65,10 +65,10 @@
 		if (a == 'Ironman'){
 			console.log('Tony Stark: How does Fury see these? *covers one eye*');
 		}
-		if (a == 'Captain America'){
+		else if (a == 'Captain America'){
 			console.log('Steve Rogers: Seriously?');
 		}
-		if (a == 'Black Widow')
+		else if (a == 'Black Widow')
 			console.log('Agent Romanov: Hello? What? I am in the middle of an interrogation and this guy is giving me everything...');
 	}else{
 		console.log('Director Fury: Sorreh, you ah NOT needed fo THIS mission.');
@@ -90,13 +90,13 @@
 	var color = 'red';
 	var num = 7;
 
-	if (carType = 'Toyota' && color = 'blue'){
+	if (carType == 'Toyota' && color == 'blue'){
 		console.log('We have a blue Toyota');
 	}
-	if (carType = 'Lamborghini' && color = 'red'){
+	else if (carType == 'Lamborghini' && color == 'red'){
 		console.log('We have a red Lamborghini');
 	}
-	if (carType = 'Tesla' && color = 'black'){
+	else if (carType == 'Tesla' && color == 'black'){
 		console.log('We have a black Tesla');
 	}else{
 		console.log("We don't have any blue Toyotas in stock");
