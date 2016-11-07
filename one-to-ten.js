@@ -1,4 +1,4 @@
-//hero
+//hero [[BROKEN]]
 	var hero = 'James T. Kirk';
 	var gender = 'Male';
 	var age = 26;
@@ -41,7 +41,7 @@
 
 	}
 
-//animal
+//1 Fish 2 Fish [[BROKEN]]
 	var count;
 	var animal = 'husky';
 
@@ -58,10 +58,10 @@
 		console.log('Welcome to the club');
 	}
 
-//avengers
+//avengers [[BROKEN]]
 	var hero = 'Black Widow';
 
-	function avengersAssemble(a){
+	function avengersAssemble(hero){
 		if (hero == 'Ironman'){
 			console.log('Tony Stark: How does Fury see these? *covers one eye*');
 		}
@@ -79,7 +79,7 @@
 //lights out
 	var lights = true;
 
-	if (lights = true){
+	if (lights === true){
 		console.log('And then there was light');
 	}else{
 		console.log('Lights out');
