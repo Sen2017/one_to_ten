@@ -1,80 +1,66 @@
-//hero [[BROKEN]]
-	var hero = 'James T. Kirk';
-	var gender = 'Male';
-	var age = 26;
-	var ship = 'the U.S.S. Enterprise';
-	var pronoun
-	var xp
-	var rank
-	//conditional to set pronoun
+//hero
+	var hero = "powerman ";
+	var gender = "male ";
+	var age = 33;
+	var weapon = "battery";
+	var pronoun;
+	var xp;
 
-		if (gender == 'Male'){
-			pronoun = 'his';
-		}
-
-		else if (gender == 'Female'){
-			pronoun = 'her';
-		}else{
-			pronoun = 'they';
-		}
-
-	//conditional to set age
-
-		if (age >= 18){
-			xp = 'enlists in Starfleet';
-			rank = 'Cadet';
-		}
-
-		else if (age > 21 && age < 40){
-			xp = 'begins his five year mission';
-			rank = 'Captain';
-		}
-
-		else if (age > 40){
-			xp = 'has boldy gone where no one has gone before'
-			rank = 'Admiral';
-		}
-
-	//statements 
-
-	console.log(rank + ' ' + hero + ' ' + xp + ' ' + 'aboard' + ' ' + pronoun + ' ' + 'ship' + ship)
-
+	//pronoun set
+	if (gender == "male "){
+	  pronoun = "his ";
+	}else{
+	  pronoun = "her ";
 	}
 
-//1 Fish 2 Fish [[BROKEN]]
+	//age
+	if (age <= 18){
+	  xp = "is just beginning "
+	}
+	else if (age > 21 && age < 40){
+	  xp = "has seen a few battles "
+	}
+	else if (age > 40){
+	  xp = "has lived through many epic battles "
+	}
+
+	console.log(hero + "is our lovable hero," + " who " + xp + "with " + pronoun + "trusty " + weapon + ".")
+
+//1 Fish 2 Fish
 	var count;
-	var animal = 'husky';
+	var animal = "huskie";
 
 	function animalHouse(a,b){
-		count = (a + b);
-		console.log(count);
+	  count = a+b;
+	  console.log(count)
 	}
 
-	animalHouse();
+	animalHouse(1,2)
 
 	if (count > 2){
-		console.log('We have too many ' + animal +'s');
+	  console.log("We have too many" + " " + animal + "s!");
 	}else{
-		console.log('Welcome to the club');
+	  console.log("Welcome to the club.")
 	}
 
-//avengers [[BROKEN]]
-	var hero = 'Black Widow';
+//avengers
+	var hero = "Vision";
 
-	function avengersAssemble(hero){
-		if (hero == 'Ironman'){
-			console.log('Tony Stark: How does Fury see these? *covers one eye*');
-		}
-		else if (hero == 'Captain America'){
-			console.log('Steve Rogers: Seriously?');
-		}
-		else if (hero == 'Black Widow')
-			console.log('Agent Romanov: Hello? What? I am in the middle of an interrogation and this guy is giving me everything...');
-	}else{
-		console.log('Director Fury: Sorreh, you ah NOT needed fo THIS mission.');
+	function avengersAssemble(avenger){
+	  if (avenger == "Ironman"){
+	      console.log("Kiss my shiny metal a$$!");
+	  }else if (avenger == "Captain America"){
+	      console.log("I am Captain America.");
+	  }else if (avenger == "Black Widow"){
+	      console.log("I am Black Widow");
+	  }else if (avenger == "Vision"){
+	      console.log("You can just pass right through me :(");
+	  }else{
+	    console.log("You are not needed for this mission");
+	  }
 	}
 
-	avengersAssemble(hero);
+	avengersAssemble(hero)
 
 //lights out
 	var lights = true;
